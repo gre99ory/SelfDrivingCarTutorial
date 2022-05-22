@@ -9,7 +9,7 @@ const car = new Car(road.getLaneCenter(0),100,30,50);
 animate();
 
 function animate(){
-    car.update();
+    car.update(road.borders);
     // Resize cause clearing
     canvas.height = window.innerHeight;
 
