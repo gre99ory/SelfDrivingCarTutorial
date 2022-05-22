@@ -13,7 +13,14 @@ function animate(){
     car.update();
     // Resize cause clearing
     canvas.height = window.innerHeight;
+
+    // Centre la scene sur la voiture
+    ctx.save();
+    ctx.translate(0,-car.y+canvas.height*0.5);
+
     road.draw(ctx);
     car.draw(ctx);
+
+    ctx.restore();
     requestAnimationFrame(animate);
 }
