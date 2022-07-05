@@ -8,3 +8,4 @@ Day 3 - Sensors 01:10:00
 Day 4 - Collision Detection 01:24:00
 Day 5 - Simulating Traffic 01:35:30
 Day 6 - Neural Network 02:03:00
+Day 7 - Genetic Enhancement 
